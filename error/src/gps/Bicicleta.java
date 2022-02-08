@@ -22,7 +22,19 @@ public class Bicicleta {
         for(int i=0; i<camino1.length; i++)
         {
             sum1 += camino1[i];
+            
+        }
+        
+        for(int i=0; i<camino2.length; i++)
+        {
+           
             sum2 += camino2[i];
+
+        }
+        
+        for(int i=0; i<camino3.length; i++)
+        {
+           
             sum3 += camino3[i];
         }
         
