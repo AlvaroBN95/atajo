@@ -10,7 +10,7 @@ CREATE TABLE Usuario(
     PJugadas INT (6) NOT NULL,
     PartidasGan INT (6) NOT NULL,
     CantTokens INT (4) NOT NULL,
-    PRIMARY KEY (NomUsu)
+    PRIMARY KEY (NombreUsu)
 );
 
 CREATE TABLE Digimon(
