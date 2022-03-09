@@ -10,7 +10,8 @@ CREATE TABLE Usuario(
     PJugadas INT (6) NOT NULL,
     PartidasGan INT (6) NOT NULL,
     CantTokens INT (4) NOT NULL,
-    PRIMARY KEY (NomUsu));
+    PRIMARY KEY (NomUsu)
+);
 
 CREATE TABLE Digimon(
     NomDigimon VARCHAR (20),
@@ -20,7 +21,8 @@ CREATE TABLE Digimon(
     Nivel ENUM {'1','2','3'} NOT NULL,
     NomEvoluviona VARCHAR (20),
     PRIMARY KEY (NomDigimon),
-    CONSTRAINT fk_dig_dig FOREIGN KEY (NomEvoluviona) REFERENCES Digimon (NomDigimon) ON DELETE SET NULL ON UPDATE CASCADE);
+    CONSTRAINT fk_dig_dig FOREIGN KEY (NomEvoluviona) REFERENCES Digimon (NomDigimon) ON DELETE SET NULL ON UPDATE CASCADE
+);
 
 CREATE TABLE Tiene(
     NombreUsu VARCHAR (20),
