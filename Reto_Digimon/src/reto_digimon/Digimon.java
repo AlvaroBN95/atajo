@@ -26,7 +26,6 @@ public class Digimon {
         tipo = tip;
         nivel = niv;
         nomEvoluciona = nomev;
-        
     }
     
     public Digimon(){}
