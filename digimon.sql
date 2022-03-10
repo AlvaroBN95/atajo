@@ -1,6 +1,6 @@
 CREATE DATABASE Digimon
 CHARACTER SET latin1
-COLLATE latin1_spanish_ci;fallo
+COLLATE latin1_spanish_ci;
 
 USE Digimon;
 
